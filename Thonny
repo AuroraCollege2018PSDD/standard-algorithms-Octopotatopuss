@@ -1,7 +1,7 @@
 BEGIN MAIN
    continue = true
    WHILE continue:
-        choice = input("Do you want to Load numbers, Print the Array, Sum the array, Find the max of the array, find the min of the array")
+        choice = input("Do you want to Load the Array, Print the Array, Sum the array, Find the max of the array, find the min of the array")
         CASEWHERE choice is
         load: loadArray
      Print: printArray
