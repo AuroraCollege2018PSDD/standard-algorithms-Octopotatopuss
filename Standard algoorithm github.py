@@ -121,44 +121,76 @@ END printArray
 BEGIN loadArray 
 
 BEGIN LoadArray
-Let i = 1
+
+    Let i = 1
+   
 Read DataValue
+
 WHILE DataValue < > "xxx"
-Let Element (i) = DataValue
-i = i + 1
-Read DataValue
+
+  Let Element (i) = DataValue
+   
+   i = i + 1
+   
+    Read DataValue
+
 ENDWHILE
-Let NumElements = i
+
+      Let NumElements = i
+   
 Display " There are" NumElements " items loaded into the array"
+
 END LoadArray
 
 BEGIN SumArray 
+
 Total = 0
-i = 1
+
+    i = 1
+   
    Let total = i + Total
+   
 If i <= Total
-Display “The sum of all elements in the array is 0”
+
+       Display “The sum of all elements in the array is 0”
+   
 If i > Total
+
 Display “The sum of all elements in the array is: “ + Total
+   
 END SumArray 
 
 
 BEGIN MaxArray 
+
 Set max to 1
-Let [ i ] Array = 0
-If i > 1 THEN 
-Set i to Max
+
+     Let [ i ] Array = 0
+   
+        If i > 1 THEN 
+      
+  Set i to Max
+
 If i < 1
+
 Set i to Min 
+
 Display “The highest value is” Max 
+
 END MaxArray 
 
 BEGIN MinArray
-Set min to 1
-Let i = 2 
-If i < 1 
+
+    Set min to 1
+   
+     Let i = 2 
+      
+       If i < 1 
+         
 Set i to Min
+
 Display “The lowest value is” Min 
+
 END MinArray
 
 
