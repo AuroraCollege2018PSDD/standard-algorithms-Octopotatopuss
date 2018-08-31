@@ -1,0 +1,68 @@
+cont = True
+
+
+def loadArray(thisArray):
+    print("loadArray was called")
+
+def printArray(thisArray):
+    outString = ""
+    for n in thisArray:
+        outString = outString + str(n) + " "
+    print(outString)
+    numElements = len(thisArray)
+    print("there are {} elements in the array".format(numElements))
+
+def sumArray(theArray):
+    sum = theArray
+    
+    i = num
+    
+    total = sum + i
+    
+    print("Sum of array: " + total) 
+    
+
+
+def maxArray (thisArray):
+    
+    print("MaxArray is called")
+    print("Max of array: " max(thisArray))
+    
+
+def minArray (thisArray):
+    print("MinArray is called")
+    
+print("The min of your array is", min(thisArray))
+
+                           
+#Main
+
+theArray = [1,2,3,4]
+empty = ()
+
+                           
+choice = input("do you want to (A)dd numbers to the array, (P)rint the array, find the ma(x) of the array, (f)ind the min of the array, (S)um the array or (q)uit: ")
+if choice == 'a':
+    loadArray(theArray)
+#Load process
+num = int(input("Enter a number"))
+
+elif choice == "p":
+    
+    printArray(theArray)
+    
+elif choice == 's':
+    sumArray(theArray)
+
+elif choice == "A":
+    sumArray(theArray)
+    
+elif choice == "f":
+    findMin(theArray)
+    
+elif choice == "x":
+    findMax(theArray)
+    
+elif choice == "q":
+    cont = False 
+    
