@@ -1,0 +1,28 @@
+I've decided to use Amber's code to compare and evaluate. 
+
+Strengths:
+
+* logical use of def the #subroutine arrays 
+* Use of len
+* Except Value Error
+* Some comments for clarifying parts of the code
+
+Weaknesses:
+
+* Probably intended as a joke, but those names can get a lil confusing on what exactly you're identifying and def. 
+* the structure of the Elif may cause bugs/interruptions
+* Line 28, numElements doesn't match line 22, numberElements
+
+Similarities: 
+
+* Max( .... Array)
+* SumArray 
+
+Differences:
+
+* """ for number in nootArray:
+        kString = kString + str(number) + " "
+    print(kString)   """""
+    
+
+*  """" print('You have {} number/s in your array'.format(numElements)) """"
